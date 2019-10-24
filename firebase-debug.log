@@ -1,0 +1,245 @@
+[debug] [2019-10-23T13:57:10.075Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T13:57:10.138Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IVAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-10-23T13:57:10.139Z] CLI Version:   7.6.1
+[debug] [2019-10-23T13:57:10.139Z] Platform:      win32
+[debug] [2019-10-23T13:57:10.139Z] Node Version:  v12.13.0
+[debug] [2019-10-23T13:57:10.303Z] Time:          Wed Oct 23 2019 16:57:10 GMT+0300 (East Africa Time)
+[debug] [2019-10-23T13:57:10.304Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T13:57:10.304Z] 
+[debug] [2019-10-23T13:57:10.433Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-23T13:57:10.436Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Ubber
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-10-23T13:58:05.388Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-10-23T13:58:05.782Z] Server Error. getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2019-10-23T13:58:05.838Z] FirebaseError: Server Error. getaddrinfo ENOTFOUND firebase.googleapis.com
+    at Request._callback (C:\Users\IVAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\IVAN\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:476:20)
+    at Request.onRequestError (C:\Users\IVAN\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:215:7)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2019-10-23T14:05:32.553Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T14:05:32.680Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IVAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-10-23T14:05:32.680Z] CLI Version:   7.6.1
+[debug] [2019-10-23T14:05:32.680Z] Platform:      win32
+[debug] [2019-10-23T14:05:32.680Z] Node Version:  v12.13.0
+[debug] [2019-10-23T14:05:32.682Z] Time:          Wed Oct 23 2019 17:05:32 GMT+0300 (East Africa Time)
+[debug] [2019-10-23T14:05:32.683Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T14:05:32.683Z] 
+[debug] [2019-10-23T14:05:32.702Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-23T14:05:32.704Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Ubber
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-10-23T14:05:47.114Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-10-23T14:05:57.813Z] <<< HTTP RESPONSE 200
+[info] i  Using project umbaweb (umbaweb)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-10-23T14:06:07.706Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-10-23T14:06:17.713Z] Error: unable to verify the first certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1321:34)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket._finishInit (_tls_wrap.js:794:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:608:12)
+[error] 
+[error] Error: Server Error. unable to verify the first certificate
+[debug] [2019-10-23T14:10:59.806Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T14:10:59.913Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IVAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-10-23T14:10:59.913Z] CLI Version:   7.6.1
+[debug] [2019-10-23T14:10:59.914Z] Platform:      win32
+[debug] [2019-10-23T14:10:59.914Z] Node Version:  v12.13.0
+[debug] [2019-10-23T14:11:00.158Z] Time:          Wed Oct 23 2019 17:10:59 GMT+0300 (East Africa Time)
+[debug] [2019-10-23T14:11:00.159Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T14:11:00.159Z] 
+[debug] [2019-10-23T14:11:00.285Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-23T14:11:00.288Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Ubber
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-10-23T14:12:02.503Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-10-23T14:12:08.922Z] <<< HTTP RESPONSE 200
+[info] i  Using project e-commerce-98eea (techway)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-10-23T14:12:18.563Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-10-23T14:12:24.194Z] Error: unable to verify the first certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1321:34)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket._finishInit (_tls_wrap.js:794:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:608:12)
+[error] 
+[error] Error: Server Error. unable to verify the first certificate
+[debug] [2019-10-23T14:17:50.222Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T14:17:50.227Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IVAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-10-23T14:17:50.227Z] CLI Version:   7.6.1
+[debug] [2019-10-23T14:17:50.227Z] Platform:      win32
+[debug] [2019-10-23T14:17:50.228Z] Node Version:  v12.13.0
+[debug] [2019-10-23T14:17:50.230Z] Time:          Wed Oct 23 2019 17:17:50 GMT+0300 (East Africa Time)
+[debug] [2019-10-23T14:17:50.230Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T14:17:50.230Z] 
+[debug] [2019-10-23T14:17:50.253Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-23T14:17:50.255Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Ubber
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-10-23T14:17:59.508Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-10-23T14:18:04.954Z] <<< HTTP RESPONSE 200
+[info] i  Using project e-commerce-98eea (techway)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-10-23T14:18:23.409Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-10-23T14:18:32.741Z] Error: unable to verify the first certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1321:34)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket._finishInit (_tls_wrap.js:794:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:608:12)
+[error] 
+[error] Error: Server Error. unable to verify the first certificate
+[debug] [2019-10-23T14:22:05.677Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T14:22:05.764Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IVAN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-10-23T14:22:05.764Z] CLI Version:   7.6.1
+[debug] [2019-10-23T14:22:05.764Z] Platform:      win32
+[debug] [2019-10-23T14:22:05.764Z] Node Version:  v12.13.0
+[debug] [2019-10-23T14:22:05.963Z] Time:          Wed Oct 23 2019 17:22:05 GMT+0300 (East Africa Time)
+[debug] [2019-10-23T14:22:05.963Z] ----------------------------------------------------------------------
+[debug] [2019-10-23T14:22:05.963Z] 
+[debug] [2019-10-23T14:22:06.114Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-23T14:22:06.116Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Ubber
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-10-23T14:22:13.753Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-23T14:22:13.754Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-23T14:22:18.217Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-23T14:22:18.265Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-10-23T14:22:21.184Z] <<< HTTP RESPONSE 200
+[info] i  Using project e-commerce-98eea (techway)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of dist/404.html
+[debug] [2019-10-23T14:22:38.475Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-10-23T14:22:41.324Z] Error: unable to verify the first certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1321:34)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket._finishInit (_tls_wrap.js:794:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:608:12)
+[error] 
+[error] Error: Server Error. unable to verify the first certificate
